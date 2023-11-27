@@ -94,6 +94,6 @@ while 2==2:
                     print(f"{users_name} Win!")         
                     sys.exit()
     time+=1
-    if time==size**2:
+    if time==size**2 and Win != 5:
         print('the game is draw.')
         sys.exit()
