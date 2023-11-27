@@ -156,7 +156,7 @@ class Game:
             player="● "
             users_name=user_name2
         time+=1
-        if time==size**2:
+        if time==(size**2)+2 and Win!=5:
             messagebox.showinfo('Sorry','it is a draw. ')
             sys.exit()
         
